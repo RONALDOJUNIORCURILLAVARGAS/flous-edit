@@ -1,0 +1,154 @@
+
+.fondo-img {
+    width:80%;
+}
+
+.servicios-bi1{
+    /* width: 100%;
+    height:280px;
+    background: #ffff;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 400px;
+    background: #ffff;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+  }
+
+  .altura {
+   /*  height: 250px ;
+    width: 15% ;
+    font-weight: 600;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #020F56 ;
+    color: #000000;
+    padding: 10px 20px; */
+
+    width: 15%; /* Adjust the width as needed */
+    margin: 10px; /* Add margin for spacing between boxes */
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #020F56 ;
+    height: 315px !important;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+  .servicios-bi1 p {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
+    color: #0C378E;
+  }
+ 
+  .servicios-bi1 span {
+    color: #201f1fc3;
+  }
+
+  .nuestraMetodologia {
+    width: 100%;
+    height: 730px;
+    justify-content: center;
+    align-items: center;
+  }
+  .nuestraMetodologia img {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    margin-left: 3%;
+  }
+.img-gif{
+    width: 80% !important;
+    height: 90% !important;
+    margin-left: 10% !important;
+}
+.dasborad {
+    height: 400px;
+    margin-top: 50px;
+}
+.sect-2-2-2 {
+  height: 555px !important;
+}
+.sect-bi {
+  height: 890px !important;
+}
+
+@media (max-width: 1000px) {
+  .sect-bi {
+      height: 715px !important;
+  }
+  .dasborad {
+    height: 255px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .servicios-bi1 {
+    height: 730px;
+  }
+  .sect-2-2-2 {
+    height: 688px !important;
+  }
+  .img-gif {
+    height: 50% !important;
+  }
+  .sect-bi br {
+    display: none;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .imagen-fondo {
+    display: none;
+}
+
+  .altura {
+    width: 25%;
+  }
+
+ .sect-2-2-2 {
+    height: 1019px !important;
+}
+.nuestraMetodologia {
+  margin-bottom: -150px;
+}
+.nuestraMetodologia img {
+  margin-left: 5%;
+  width: 80%;
+  height: 50%;
+}
+.nuestraMetodologia br {
+  display: none;
+}
+
+  
+}
+
+@media (max-width: 900px) {
+  .altura {
+    width: 25%;
+  }
+
+ .sect-2-2-2 {
+    height: 1087px !important;
+}
+  
+}
+
+@media (max-width: 450px) {
+  .dasborad {
+    height: 210px;
+  }
+   
+}
+
+
+

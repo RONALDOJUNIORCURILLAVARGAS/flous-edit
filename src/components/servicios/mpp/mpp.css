@@ -1,0 +1,264 @@
+.texto p {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Montserrat, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url('../../../assets/fondo2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+.imagen-fondo{
+    height: 100%;
+    width: 1950px;
+    background: #fff;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 0 0 50%;
+
+
+
+}
+.imagen-fondo img {
+margin: auto;
+width: 65%;
+margin: 120px 0px 10px 100px;
+}
+
+.texto {
+    margin: auto;
+    justify-content: center;
+    padding: 0 60px;
+    color: #fff;
+}
+.texto div {
+    font-size: 18px;
+}
+.sect2 {
+    height: 740px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sect-2-2 {
+  height: 980px !important;
+}
+.content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.content img {
+    width: 50%;
+}
+.texto-info,  .p{
+    padding: 0 170px;
+    color: #2e2e35;
+
+text-align: justify;
+font-size: 18px;
+font-style: normal;
+text-align: center;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.texto-info img {
+    width: 152px;
+height: 149px;
+flex-shrink: 0;
+}
+.texto-info span {
+    font-weight: 900;
+}
+.content2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.content2 .p-b {
+    background-color: #03045E;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 20px;
+    margin: 50px 20px 10px 10px;
+}
+
+
+.servicios{
+   /*  width: 100%;
+    height:280px;
+    background: #ffff;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 400px;
+    background: #ffff;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+
+  }
+  .servicios p {
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
+    color: #0C378E;
+  }
+  
+  .dis-1 {
+   /*  width: 20%;
+    height: 393px !important;
+    font-weight: 600;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #020F56 ;
+    color: #000000;
+    padding: 10px 20px; */
+    width: 25%; /* Adjust the width as needed */
+    margin: 10px; /* Add margin for spacing between boxes */
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #020F56 ;
+    height: 393px !important;
+  font-weight: 600;
+  margin: 0 10px;
+
+  }
+  .servicios span {
+    color: #201f1fc3;
+  }
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0C378E !important;
+    padding-top: 80px;
+    width: 60%;
+  }
+  .dis {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    width: 250px !important;
+    height: 230px !important;
+    padding: 20px;
+  }
+
+  .sect3 {
+    background-image: url('../../../assets/fondo-mpp.png');
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: auto !important;
+    justify-content:center  !important;
+    align-items: center !important;
+  }
+  .text-footer {
+   width: 60%;
+   text-align: center;
+  }
+
+  .oculto {
+    display: none;
+  }
+
+  @media (max-width: 1220px) {
+    .servicio-mpp {
+      margin-top: 0px !important;
+    }
+  }
+
+  @media (max-width: 1260px) {
+    .sect-2-2{
+      height: 1174px !important;
+    }
+ 
+    .content2 {
+    }
+    .dis-1 {
+      height: 486px !important;
+    }
+    .video {
+      height: 60% !important;
+     }
+  } 
+  @media (max-width: 896px) {
+    .texto p {
+       font-size: 35px;
+    }
+    .texto div {
+        font-size: 15px;
+    }
+    .dis-1 {
+      width: 40%;
+      height: 350px;
+    }
+   .sect-2-2 {
+    height: 1683px !important;
+   }
+   .video {
+    width: 60% !important;
+   }
+  
+  }
+   @media (max-width: 866px) {
+    .sect2 .svg{
+      width: 60%;
+    }
+    .sect2-app {
+        height: 620px !important;
+    }
+    .p2 {
+      padding: 0 50px;
+     }
+     
+  }
+
+  @media (max-width: 646px) {
+    
+    .dis-1 {
+      width: 60%;
+      height: 300px !important;
+    }
+   .sect-2-2 {
+    height: 1917px !important;
+   }
+   .servicio-mpp {
+    height: 1022px ;
+   }
+    .content2 .p-b {
+      margin: 32px 16px -4px 3px;
+      padding: 17px 7px;
+    }
+    .video {
+      margin-top: -150px;
+     }
+  }

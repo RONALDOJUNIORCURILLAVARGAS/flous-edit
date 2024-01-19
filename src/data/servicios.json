@@ -1,0 +1,23 @@
+[
+    {
+      "imagen": "../",
+      "titulo": "Microsoft Power   Plataform",
+      "descripcion": "Adéntrate en las soluciones ofrecidas por Microsoft Power Platform,      especialmente diseñadas para empresas, y descubre las diversas      oportunidades que brindan. Desde analizar datos con Power BI hasta      desarrollar aplicaciones con PowerApps, automatizar flujos de trabajo      con Power Automate y conectar con clientes mediante Power Virtual      Agents."
+    },
+    {
+      "imagen": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBwZXJzb25hc3xlbnwwfHwwfHx8MA%3D%3D",
+      "titulo": "Business Intelligence",
+      "descripcion": "Somos expertos en convertir los datos de su      organización en información y logramos obtener      conocimiento mediante el análisis en tiempo real,      respaldando así el proceso de toma de decisiones."
+    },
+    {
+      "imagen": "https://images.unsplash.com/photo-1456327102063-fb5054efe647?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "titulo": "DESARROLLO DE      SOFTWARE",
+      "descripcion": "Nos destacamos en el campo del desarrollo de software,      focalizándonos principalmente en entornos de programación      como Microsoft .NET (somos socios Silver de Microsoft en      Desarrollo de Aplicaciones), Java y Delphi."
+    },
+    {
+      "imagen": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "titulo": "Fortalece la presencia digital      de tu marca mediante la      creación de una página web",
+      "descripcion": "Diseñamos experiencias digitales personalizadas y eficaces para      potenciar la posición de las empresas en el mercado. Tu página      web debe estar lista para ser el epicentro de tu marca en el      entorno digital."
+    }
+  ]
+  

@@ -1,0 +1,136 @@
+
+.imagen-fondo-ux {
+    width:90%;
+    height: 100%;
+    background: #fff;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 0 0 50%;
+
+}
+.imagen-fondo-ux img {
+    width: 90%;
+    margin-top: 20%;
+}
+.descipcion-ux-ui {
+    display: flex;
+    margin: 50px 150px;
+}
+.ui, .ux {
+    width: 430px;
+    margin: auto;
+    border: 1px solid #020F56;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ui p, .ux p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #020F56;
+}
+
+.ui img, .ux img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.sect2-ui-ux {
+    height: 1500px !important;
+}
+.img-ux {
+    height: 500px;
+}
+.buttom-ux {
+    background-color: #020F56;
+    padding:15px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 1289px) {
+    .imagen-fondo-ux img {
+        width: 90%;
+        margin-top: 35%;
+    }
+}
+
+@media (max-width: 1289px) {
+    .imagen-fondo-ux img {
+        width: 70%;
+        margin-top: 65%;
+    }
+    .ui, .ux {
+        width: 349px;
+    }
+    .descipcion-ux-ui {
+        margin: 20px 5px;
+    }
+    .descipcion-ux-ui img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 1044px) {
+   
+    .ui, .ux {
+        width: 250px;
+    }
+    .descipcion-ux-ui img {
+        width: 260px;
+    }
+}
+
+@media (max-width: 990px) {
+    .imagen-fondo-ux {
+       display: none;
+    }
+    .img-ux {
+        height: 400px;
+    }
+}
+
+@media (max-width: 850px) {
+   
+    .ui, .ux {
+        width: 200px;
+    }
+    .descipcion-ux-ui {
+        margin: 12px 50px;
+    }
+    .descipcion-ux-ui img {
+        width: 200px;
+    }
+    .img-ux {
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 680px) {
+   
+   
+    .sect2-ui {
+        height: 858px;
+    }
+}
+
+
+@media (max-width: 595px) {
+   
+   
+    .sect2-ui {
+        height: 1288px;
+    }
+    .sect2-ui-ux {
+        height: 2090px !important;
+    }
+    .descipcion-ux-ui {
+        display: block;
+    }
+    .img-ux {
+        height: 200px;
+    }
+}

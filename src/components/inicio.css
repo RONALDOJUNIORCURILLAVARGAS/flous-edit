@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  
+  .home{
+    height: 650px !important;
+    background-image: url('../assets/fondo-home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fondo {
+    background-image: url('../assets/image-home.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 600px;
+    height: 619px;
+    margin-right: 80px;
+  }
+  .header {
+    height: 80px;
+    border-bottom: 1px solid #fcfcfc;
+    background:  #fcfcfc;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .nav{
+  margin-left: 200px;  
+  }
+  .nav a {
+    margin: 10px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .logo{
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .nav a:hover {
+    transition: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .buttom, .agendar-reu {
+    background: #0C378E;
+    padding: 10px 20px;
+    color: #fcfcfc !important;
+   font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .buttom {
+    background: #fcfcfc;
+    padding: 10px 20px;
+    color: #020F56 !important;
+   font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .buttom:hover {
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid #fcfcfc;
+  }
+  .banner1 {
+    display: flex;
+  }
+  .descripcion {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    border-radius: 20px;
+    width: 550px;
+  }
+  
+  .descripcion p {
+    text-transform: uppercase;
+    font-size: 43px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .slogan {
+    font-weight:400 ;
+    font-size: 18px;
+  }
+  
+  .servicios, .test{
+    /* width: 100%;
+    height:400px;
+    background: #ffff;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    height: 400px;
+    background: #ffff;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+  }
+
+  .testimonios  {
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .servicios p {
+    font-size: 25px !important;
+    font-weight: 900;
+    padding: 10px 0;
+    color: #0C378E;
+  }
+  
+  .servicios .dis {
+   /*  width: 20%;
+    height: 312px !important;
+    font-weight: 600;
+    margin: 0 10px;
+   
+    color: #000000; */
+
+      width: 45%; /* Adjust the width as needed */
+      margin: 10px; /* Add margin for spacing between boxes */
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid #020F56 ;
+      height: 315px !important;
+    font-weight: 600;
+    margin: 0 10px;
+  }
+  .servicios span {
+    color: #201f1fc3;
+  }
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0C378E !important;
+    padding-top: 80px;
+  }
+  .dis {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    width: 250px !important;
+    height: 290px !important;
+    padding: 20px;
+  }
+  
+  .socios img {
+    width: 250px;
+    height: 110px;
+    background-color: #fcfcfcbd;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .socios .carru {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .socios .espacio {
+    width: 10px;
+  }
+  .ds-test {
+    background-color: #020F56;
+    width: 23%;
+    color: #fcfcfc;
+    height: 410px;
+    border-radius: 10px;
+  margin: 0 20px; 
+  }
+  .test {
+    margin-top: 130px;
+  }
+  .perfil {
+    width: 179px;
+    height: 179px;
+    margin-top: -60px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  }
+  
+  .desc .p {
+   font-size: 22px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+  .desc span {
+    text-align: start;
+  }
+  
+  .metodologias {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .metodologias .img-meto {
+    background-image: url('../assets/metodologia.png');
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+  }
+  
+  .socios {
+    background: #020F56;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .socios p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fcfcfc !important;
+    padding-top: 80px;
+  }
+  .socios .socios-logo {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .socios .logo1 {
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/descarga.png');
+  }
+  
+  .socios .logo2 {
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/scala.png');
+  }
+  
+  .socios .logo3 {
+    background-image: url('../assets/uipath-vector-logo.png');
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .detalle-foo a {
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+  .form {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+  }
+
+  .iconWhat {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    float: inline-end;
+  }
+  @media (max-width: 1260px) {
+    .servicios {
+      height: 730px;
+    }
+  }
+  
+  @media (max-width: 1145px) {
+    .testimonios {
+      height: 1000px;
+    }
+    .socios {
+      width: 90%;
+    }
+  }
+  @media (max-width: 760px) { 
+    .fondo {
+      height: auto;
+      margin-right: 0px;
+    }
+
+    .descripcion {
+      width: 648px;
+    }
+  }
+  
+  @media (max-width: 651px) { 
+    .fondo {
+      width: 0;
+    }
+    .home {
+      height: 500px !important;
+    }
+  }
+
+
+  @media (max-width: 640px) {
+    .servicios {
+      height: 1486px;
+    }
+  }

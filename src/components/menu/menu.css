@@ -1,0 +1,220 @@
+#topnav-outside {
+  background: #fff;
+  width: 100%;
+  min-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  -moz-box-shadow: 0 8px 6px -6px #ccc;
+  -webkit-box-shadow: 0 8px 6px -6px #ccc;
+  box-shadow: 0 8px 6px -6px #ccc;
+}
+
+#topnav-intside {
+  max-width: 1000px;
+  min-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bofollowbutton-nav {
+  float: right;
+  margin: 0;
+  padding: 8px 5px 0 5px;
+  overflow: hidden;
+  clear: both;
+}
+
+.status-msg-wrap {
+  display: none;
+}
+
+#bonav li.has-child {
+  background-image: url(https://3.bp.blogspot.com/-udDmmA77Cv4/WBnvafIeE8I/AAAAAAAAD84/Dp8DbiKr1WE0njmWZpgH9EeoZYsRW-9FQCEw/s1600/bo_arrow_dropdown.gif);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+#bonav {
+  max-width: 1000px;
+}
+
+#bonav > a {
+  display: none;
+}
+
+#bonav li {
+  list-style-type: none;
+  position: relative;
+}
+
+#bonav li a {
+  display: block;
+  color: #03045E;
+  text-decoration: none;
+}
+
+#bonav span:after {
+  height: 0;
+  width: 0;
+  border: 0.313em solid transparent;
+  border-bottom: none;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  right: -0.313em;
+}
+
+#bonav > ul {
+  background-color: #fff;
+  height: 3.75em;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+#bonav > ul > li {
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+#bonav > ul > li.home-icon {
+  max-width: 120px;
+}
+
+#bonav > ul > li > a {
+  height: 100%;
+  text-align: center;
+  font-size: 1.0em;
+  line-height: 3.7em;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#bonav > ul > li:not(:last-child) > a {
+  border-right: 1px solid #f4f4f4;
+}
+
+#bonav > ul > li:hover > a,
+#bonav > ul:not(:hover) > li.active > a {
+  color: #333;
+
+}
+
+#bonav li ul {
+  background-color: #f9f9f9;
+  position: absolute;
+  display: none;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#bonav li:hover ul {
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+#bonav li:not(:first-child):hover ul {
+  left: -1px;
+}
+
+#bonav li ul a {
+  font-size: 1.0em;
+  border-top: 1px solid #f4f4f4;
+  padding: 1.0em;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#bonav li ul li a:hover,
+#bonav li ul:not(:hover) li.active a {
+  background-color: #333;
+  color: #fff;
+}
+
+@media only screen and (max-width: 60em) {
+  #bonav {
+      font-size: 75%;
+      position: relative;
+      top: auto;
+      left: auto;
+  }
+
+  #bonav > a {
+      font-size: 1.25em;
+      text-decoration: none;
+      color: #fff;
+      background: #3d5c99;
+      text-align: center;
+      padding: 15px 0;
+      display: none;
+      text-align: center;
+      overflow: hidden;
+  }
+
+  #bonav > a:after {
+      top: 60%;
+  }
+
+  #bonav:not(:target) > a:first-of-type,
+  #bonav:target > a:last-of-type {
+      display: block;
+  }
+
+  #bonav > ul {
+      height: auto;
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+  }
+
+  #bonav:target > ul {
+      display: block;
+  }
+
+  #bonav > ul > li {
+      width: 100%;
+      float: none;
+  }
+
+  #bonav > ul > li > a {
+      height: auto;
+      text-align: left;
+      padding: 0 0.833em;
+  }
+
+  #bonav > ul > li:not(:last-child) > a {
+      border-right: none;
+      border-bottom: 1px solid #f4f4f4;
+  }
+
+  #bonav li ul {
+      position: static;
+      padding: 1.25em;
+      padding-top: 0;
+  }
+
+  #bonav li ul {
+      background-color: #f8f8f8;
+  }
+
+  #bonav > ul {
+      background-color: #f8f8f8;
+  }
+
+  #bonav li ul a {
+      border-top: 1px solid #f1f1f1;
+  }
+
+  #bonav > ul > li > a {
+      border-top: 1px solid #f1f1f1;
+  }
+}

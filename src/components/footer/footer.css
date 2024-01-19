@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  
+  .home{
+    height: 600px;
+   background-color: #020F56;
+  }
+ /*  .fondo {
+    width: 750px;
+    height: 519px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../assets/jason-goodman-vbxyFxlgpjM-unsplash.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%); 
+  } */
+  .header {
+    height: 80px;
+    border-bottom: 1px solid #fcfcfc;
+    background:  #fcfcfc;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .nav{
+  margin-left: 200px;  
+  }
+  .nav a {
+    margin: 10px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .logo{
+    text-transform: uppercase;
+    color: #fcfcfc;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .nav a:hover {
+    transition: 1s;
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  .buttom, .agendar-reu {
+    background: #0C378E;
+    padding: 10px 20px;
+    color: #fcfcfc !important;
+   font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .buttom {
+    background: #fcfcfc;
+    padding: 10px 20px;
+    color: #020F56 !important;
+   font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .buttom:hover {
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid #fcfcfc;
+  }
+  .banner {
+    display: flex;
+  }
+  .descripcion {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    border-radius: 20px;
+    width: 550px;
+  }
+  
+  .descripcion p {
+    text-transform: uppercase;
+    font-size: 43px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .slogan {
+    font-weight:400 ;
+    font-size: 18px;
+  }
+
+
+  .title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0C378E !important;
+    padding-top: 80px;
+  }
+  .dis {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+    width: 250px !important;
+    height: 230px !important;
+    padding: 20px;
+  }
+  
+  .ds-test {
+    background-color: #020F56;
+    width: 23%;
+    color: #fcfcfc;
+    height: 410px;
+    border-radius: 10px;
+  margin: 0 20px; 
+  }
+  .test {
+    margin-top: 130px;
+  }
+
+  .desc .p {
+   font-size: 22px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+  .desc span {
+    text-align: start;
+  }
+  
+  .metodologias {
+    width: 100%;
+    height: 700px;
+  }
+  
+/*   .metodologias .img-meto {
+    background-image: url('../assets/metodologia.png');
+    width: 80%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+  } */
+  
+ /*  .socios .logo1 {
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/descarga.png');
+  } */
+  
+  /* .socios .logo2 {
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/scala.png');
+  }
+  
+  .socios .logo3 {
+    background-image: url('../assets/uipath-vector-logo.png');
+    width: 250px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  } */
+  .footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background:  #020F56 ;
+    color: #fcfcfc;
+  }
+  
+  .footer-detalle {
+   display: flex;
+   margin: auto;
+   width: 70%;
+   justify-content: center;
+   padding: 50px 0;
+  }
+  .footer-detalle .detalle-foo {
+    width: 25%;
+    margin: auto;
+    justify-content: center;
+    text-align: justify;
+  
+  }
+  .detalle-foo a {
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+  .form {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    height: 950px;
+  }
+  @media (max-width: 1135px) { 
+    .footer {
+      height: 650px ;
+    }
+  }
+
+  @media (max-width: 750px) { 
+    .footer-detalle {
+      margin: 0px ;
+      width: 85%;
+
+    }
+  }
+  
+
+  
+  @media (max-width: 595px) { 
+    .footer-detalle {
+      display: block;
+      width: 100%;
+
+    }
+    .detalle-foo {
+      width: 70% !important;
+    }
+  }
+  
