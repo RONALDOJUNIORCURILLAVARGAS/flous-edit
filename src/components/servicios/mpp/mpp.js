@@ -45,7 +45,7 @@ function Mpp() {
                 <br /> <br />
                 <img className='svg' src={img} />
                 <div className="content">
-                   
+
 
 
                 </div>
@@ -63,17 +63,17 @@ function Mpp() {
 
                 <span className='p p2'>Actualmente clasificamos las soluciones en las siguientes categorías:</span>
                 <div className="content2">
-                    <button className='p-b' onClick={() => mostrarContenido('portales')}>Portales</button>
-                    <button className='p-b' onClick={() => mostrarContenido('transformacion-digital')}>Transformación digital</button>
-                    <button className='p-b' onClick={() => mostrarContenido('desarrollo')}>Desarrollo a medida</button>
-                    <button className='p-b' onClick={() => mostrarContenido('migracion')}>Migración en la nube</button>
-
+                    <button className={`p-b ${mostrarDiv === 'portales' ? 'selected' : ''}`} onClick={() => mostrarContenido('portales')}>Portales</button>
+                    <button className={`p-b ${mostrarDiv === 'transformacion-digital' ? 'selected' : ''}`} onClick={() => mostrarContenido('transformacion-digital')}>Transformación digital</button>
+                    <button className={`p-b ${mostrarDiv === 'desarrollo' ? 'selected' : ''}`} onClick={() => mostrarContenido('desarrollo')}>Desarrollo a medida</button>
+                    <button className={`p-b ${mostrarDiv === 'migracion' ? 'selected' : ''}`} onClick={() => mostrarContenido('migracion')}>Migración en la nube</button>
                 </div>
+
                 <div className="content2">
-                    <button className='p-b' onClick={() => mostrarContenido('data')}>Data</button>
-                    <button className='p-b' onClick={() => mostrarContenido('analitica-data')}>Analitica de datos</button>
-                    <button className='p-b' onClick={() => mostrarContenido('app-process')}>Apps y procesos</button>
-                    <button className='p-b' onClick={() => mostrarContenido('seguridad')}>Seguridad</button>
+                    <button className={`p-b ${mostrarDiv === 'data' ? 'selected' : ''}`} onClick={() => mostrarContenido('data')}>Data</button>
+                    <button className={`p-b ${mostrarDiv === 'analitica-data' ? 'selected' : ''}`} onClick={() => mostrarContenido('analitica-data')}>Analitica de datos</button>
+                    <button className={`p-b ${mostrarDiv === 'app-process' ? 'selected' : ''}`} onClick={() => mostrarContenido('app-process')}>Apps y procesos</button>
+                    <button className={`p-b ${mostrarDiv === 'seguridad' ? 'selected' : ''}`} onClick={() => mostrarContenido('seguridad')}>Seguridad</button>
                 </div>
 
                 <br /><br />

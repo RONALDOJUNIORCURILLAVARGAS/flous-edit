@@ -17,7 +17,7 @@ function DesarrolloS() {
                     <div>
                         Nos destacamos en el campo del desarrollo de software, focalizándonos principalmente en entornos de programación como Microsoft. NET (somos socios Silver de Microsoft en Desarrollo de Aplicaciones), Java y Delphi.
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous">Comienza tu proyecto!!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">Comienza tu proyecto!!</a>
                 </div>
 
                 <div className="imagen-fondo-ds">
@@ -72,7 +72,7 @@ function DesarrolloS() {
                     Desarrollamos soluciones de software a medida que hacen realidad tus visiones. Descubre cómo podemos transformar tus ideas en productos excepcionales.
  ¡Haz que tu visión cobre vida con nuestro servicio de desarrollo de software!
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>

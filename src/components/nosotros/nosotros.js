@@ -20,33 +20,33 @@ function Nosostros() {
                     </span>
                 </div>
 
-               
+
             </div>
-            <br/>
+            <br />
             <div className="mision-vision">
-                    <div className="mision">
-                        <p>
-                            Misión
-                        </p>
-                        <br />
-                        <span>
-                            En Flous, nuestra misión es acompañar a las empresas en su viaje hacia la excelencia digital, ofreciendo soluciones integrales de transformación y optimización basadas en la innovación y la ingeniería de datos. Nos comprometemos a entender las necesidades únicas de cada cliente y a proporcionar servicios de calidad que impulsen su crecimiento, eficiencia y competitividad en el entorno digital actual. Buscamos ser socios estratégicos, brindando asesoramiento experto y soluciones a medida que permitan a nuestros clientes alcanzar su máximo potencial en un mundo digital en constante evolución
-
-                        </span>
-                    </div>
-                    <div className="mision">
+                <div className="mision">
                     <p>
-                    Visión
-                        </p>
-                        <br />
-                        <span>
-                        nuestra visión es liderar la revolución digital en Perú, transformando la forma en que las empresas operan y utilizan la tecnología. Nos esforzamos por ser pioneros en la entrega de soluciones innovadoras en transformación digital e ingeniería de datos, impulsando el crecimiento y la eficiencia de nuestros clientes. Buscamos ser reconocidos como un referente en la región, destacando por nuestra excelencia, creatividad y compromiso con la evolución tecnológica sostenible y orientada al éxito empresarial.
-                        </span>
-                    </div>
-                </div>
-                <br/>
+                        Misión
+                    </p>
+                    <br />
+                    <span>
+                        En Flous, nuestra misión es acompañar a las empresas en su viaje hacia la excelencia digital, ofreciendo soluciones integrales de transformación y optimización basadas en la innovación y la ingeniería de datos. Nos comprometemos a entender las necesidades únicas de cada cliente y a proporcionar servicios de calidad que impulsen su crecimiento, eficiencia y competitividad en el entorno digital actual. Buscamos ser socios estratégicos, brindando asesoramiento experto y soluciones a medida que permitan a nuestros clientes alcanzar su máximo potencial en un mundo digital en constante evolución
 
-                <div id='' className="sect3">
+                    </span>
+                </div>
+                <div className="mision">
+                    <p>
+                        Visión
+                    </p>
+                    <br />
+                    <span>
+                        nuestra visión es liderar la revolución digital en Perú, transformando la forma en que las empresas operan y utilizan la tecnología. Nos esforzamos por ser pioneros en la entrega de soluciones innovadoras en transformación digital e ingeniería de datos, impulsando el crecimiento y la eficiencia de nuestros clientes. Buscamos ser reconocidos como un referente en la región, destacando por nuestra excelencia, creatividad y compromiso con la evolución tecnológica sostenible y orientada al éxito empresarial.
+                    </span>
+                </div>
+            </div>
+            <br />
+
+            <div id='' className="sect3">
                 <div className=" texto text-footer">
                     <br />
                     <br />
@@ -55,14 +55,14 @@ function Nosostros() {
                     <br />
 
                     <p>
-                    ¿Necesitas ayuda?
-Empecemos una conversación</p>
+                        ¿Necesitas ayuda?
+                        Empecemos una conversación</p>
                     <br />
 
                     <div>
-                    Somos expertos migrar a una transformación digital y optimizar tu negocio
+                        Somos expertos migrar a una transformación digital y optimizar tu negocio
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>

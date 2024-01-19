@@ -190,6 +190,10 @@ flex-shrink: 0;
     display: none;
   }
 
+  .selected {
+    background-color: #2e2e35 !important;
+  }
+
   @media (max-width: 1220px) {
     .servicio-mpp {
       margin-top: 0px !important;

@@ -27,8 +27,7 @@ function UxUi() {
 
             <div className="sect2 sect2-ui">
                 <p className='title'>
-                    Beneficios de implementar la ingeniería de
-                    datos en tu negocio
+                Servicios de diseño UI/UX
                 </p>
                 <span>Más de millones de usuarios automatizan sus empresas mejorando los procesos de negocio.</span>
                 <div className="descipcion-ux-ui">

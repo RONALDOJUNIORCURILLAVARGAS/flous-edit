@@ -20,7 +20,7 @@ function BusinessIntelligence() {
                         conocimiento mediante el análisis en tiempo real,
                         respaldando así el proceso de toma de decisiones.
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous">Comienza tu proyecto!!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">Comienza tu proyecto!!</a>
                 </div>
 
                 <div className="imagen-fondo fondo-img">
@@ -137,7 +137,7 @@ function BusinessIntelligence() {
                     <div>
                         Estamos comprometidos a ofrecerte la solución más efectiva para impulsar la inteligencia empresarial de tu compañia. Descubre el potencial del Business Intelligence y transforma tus datos en decisiones estratégicas. ¡Optimiza tu visión con nosotros!.
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>
