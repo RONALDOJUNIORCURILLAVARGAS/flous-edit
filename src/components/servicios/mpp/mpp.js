@@ -5,6 +5,8 @@ import mpp from '../../../assets/mpp.png';
 import img from '../../../assets/svg/apps.svg'
 import videoFile from "../../../assets/video/Geconsac.mp4"
 import { useState } from 'react';
+import iconWhat from '../../../assets/icon-what.png'
+
 function Mpp() {
     const [mostrarDiv, setMostrarDiv] = useState('data');
 
@@ -35,6 +37,9 @@ function Mpp() {
                 <div className="imagen-fondo">
                     <img src={mpp} />
                 </div>
+                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
+                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
+                </a>
             </div>
 
 
@@ -85,6 +90,8 @@ function Mpp() {
                             <span>Transforma y organiza la información en la nube o de los dispositivos de tu empresa para trabajar con más comodidad con tus equipos.</span>
                             <br /><br />
                             <br />
+                            <br />
+
                             <a className='agendar-reu' to="/desarrollo-software">Más
                                 información</a>
                         </div>
@@ -93,6 +100,9 @@ function Mpp() {
                             <span>Organiza tu empresa y la información privada y relevante para administrarla de tu mejor forma. Siempre en la nube.</span>
                             <br /><br />
                             <br />
+                            <br />
+                            <br />
+
                             <a className='agendar-reu' to="/business-intelligence">Más
                                 información</a>
                         </div>
@@ -347,11 +357,12 @@ function Mpp() {
                 <p className='title'>
                     Demo utilizando Microsoft Power Plataform
                 </p>
+                <br/>
                 <span>Te invitamos a que interactues con nuestra demo de un caso de éxito</span>
                 <br /> <br />
 
-                <video className='video' controls width="800" height="600">
-                    <source src={videoFile} type="video/mp4" />
+                <video className='video' autoPlay muted loop  width="800" height="600">
+                    <source src={videoFile} type="video/mp4"  />
                     Tu navegador no soporta el tag de video.
                 </video>
             </div>
@@ -379,7 +390,7 @@ function Mpp() {
 
                         realidad!
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://outlook.office365.com/owa/calendar/FlowUpSolutions1@flowupsolutions.com/bookings/" target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>

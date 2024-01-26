@@ -113,10 +113,10 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #ffffff;
     width: 250px !important;
     height: 230px !important;
     padding: 20px;
+    background: #eee;
   }
   
   .ds-test {

@@ -1,6 +1,8 @@
 import React from "react";
 import './nosotros.css'
-
+import iconWhat from '../../assets/icon-what.png'
+import mision from '../../assets/svg/4312965eternaleyeopticorganvision-115887_115833.svg'
+import vision from '../../assets/svg/creativity_innovation_brainstorming_inspiration_vision_icon_260962.svg'
 function Nosostros() {
 
     return (
@@ -20,12 +22,15 @@ function Nosostros() {
                     </span>
                 </div>
 
-
+                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
+                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
+                </a>
             </div>
             <br />
             <div className="mision-vision">
                 <div className="mision">
                     <p>
+                        <img src={mision} width={60}  style={{marginRight: '10px'}}/>
                         Misión
                     </p>
                     <br />
@@ -36,6 +41,7 @@ function Nosostros() {
                 </div>
                 <div className="mision">
                     <p>
+                    <img src={vision} width={80} style={{marginRight: '10px'}}/>
                         Visión
                     </p>
                     <br />

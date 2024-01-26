@@ -5,6 +5,8 @@ import './bi.css';
 import metodologia from '../../../assets/metodologia1.png';
 import gif from '../../../assets/gifts/etl.gif';
 import dasborad from '../../../assets/dasboard.png';
+import iconWhat from '../../../assets/icon-what.png'
+
 function BusinessIntelligence() {
     return (
         <div>
@@ -26,6 +28,10 @@ function BusinessIntelligence() {
                 <div className="imagen-fondo fondo-img">
                     <img src={bi} />
                 </div>
+
+                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
+                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
+                </a>
             </div>
 
 
@@ -78,7 +84,7 @@ function BusinessIntelligence() {
 
             <div className='nuestraMetodologia'>
             <p className='title'>
-                    Flujograma del proceso en power BI
+                    Flujograma del proceso de datos
                 </p>
                 <br />
             <br />
@@ -137,7 +143,7 @@ function BusinessIntelligence() {
                     <div>
                         Estamos comprometidos a ofrecerte la solución más efectiva para impulsar la inteligencia empresarial de tu compañia. Descubre el potencial del Business Intelligence y transforma tus datos en decisiones estratégicas. ¡Optimiza tu visión con nosotros!.
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://outlook.office365.com/owa/calendar/FlowUpSolutions1@flowupsolutions.com/bookings/" target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>

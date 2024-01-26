@@ -30,7 +30,9 @@ function Home() {
         <p className='title'>
           Servicios
         </p>
-        <div className="servicios">
+        <br/>
+        <br/>
+        <div className="servicios servi-inicio">
           <div className='dis'>
             <p>Desarrollo software</p>
             <span> Análisis de datos mediante Power BI y automatizar procesos para la productividad de tu negocio</span>
@@ -68,7 +70,7 @@ function Home() {
           Clientes que confiaron en nosotros
         </p>
 
-
+        <br />
         <span> Sé parte del cambio y lleva a tu empresa al éxito</span>
         <br />
         <br />
@@ -90,35 +92,33 @@ function Home() {
           autoplay={true}
           slidesToShow={5}
           className="carru"
-          autoplaySpeed={550}
+          autoplaySpeed={1950}
           centerMode={true}
           centerPadding={0}
           swipe={false}
         >
-          <img src='https://mensagia.com/img/frontend/plugins/microsoft-logo.png' alt='Microsoft Logo' />
-          <div className='espacio'></div>
-          <img src='https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png' alt='Java Logo' />
+          <img className='img-socios'  src='https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png' alt='Java Logo' />
           <div></div>
 
-          <img src='https://companieslogo.com/img/orig/PATH_BIG-212c4d26.png?t=1649160715' alt='Logo' />
+          <img  className='img-socios' src='https://miro.medium.com/v2/resize:fit:399/1*-5k3wiB9V0Yczp9JoBODSA.png' alt='Logo' />
           <div className='espacio'></div>
 
-          <img src='https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA' alt='Logo' />
+          <img  className='img-socios' src='https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA' alt='Logo' />
           <div className='espacio'></div>
 
-          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Scala-full-color.svg/1280px-Scala-full-color.svg.png' alt='Scala Logo' />
+          <img  className='img-socios' src='https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png' alt='Scala Logo' />
           <div className='espacio'></div>
 
-          <img src='https://assets.stickpng.com/images/62c6bc0beee9410fe137d91e.png' alt='Logo' />
+          <img  className='img-socios' src='https://s3-alpha.figma.com/hub/file/2811018019/cae7d25d-8aff-4c49-8189-fad585dfb7cb-cover.png' alt='Logo' />
           <div className='espacio'></div>
 
-          <img src='https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png' alt='Microsoft Power BI Logo' />
+          <img className='img-socios'  src='https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png' alt='Microsoft Power BI Logo' />
           <div className='espacio'></div>
 
-          <img src='https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA' alt='Logo' />
+          <img className='img-socios'  src='https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA' alt='Logo' />
           <div className='espacio'></div>
 
-          <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Scala-full-color.svg/1280px-Scala-full-color.svg.png' alt='Scala Logo' />
+          <img  className='img-socios' src='https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png' alt='Scala Logo' />
           <div className='espacio'></div>
 
         </Carousel>

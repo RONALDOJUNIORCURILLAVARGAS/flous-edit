@@ -1,10 +1,31 @@
 
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import logo from '../../assets/logo.png'
 import './menu.css'
+import { useEffect } from 'react';
+
 function Menu() {
+
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, setScrolled] = useState(false);
+  
+    useEffect(() => {
+      const onScroll = () => {
+        if (window.scrollY > 50) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      }
+  
+      window.addEventListener("scroll", onScroll);
+  
+      return () => window.removeEventListener("scroll", onScroll);
+    }, [])
+  
+
     return (
-        <div id='topnav-outside'>
+        <div id='topnav-outside' expand="md" className={scrolled ? "scrolled" : ""}>
 
             <div id='topnav-intside'>
                 <div class='bofollowbutton-nav'>

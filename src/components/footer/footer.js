@@ -1,16 +1,19 @@
 
 import logoBlanco from '../../assets/logo-blaco.png'
 import './footer.css'
+import navIcon1 from '../../assets/svg/facebook.svg'
+import navIcon2 from '../../assets/svg/linkedin.svg'
+
 function Footer() {
     return (
         <div className="footer">
             <div className='footer-detalle'>
 
                 <div className='detalle-foo'>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     <img src={logoBlanco} alt="logo" className="logo-img" />
-                    <p>cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años</p>
+                    <p>Our mission is to redefine business possibilities by leveraging technology as a catalyst for innovation and growth.</p>
                 </div>
 
                 <div className='detalle-foo'>
@@ -23,10 +26,10 @@ function Footer() {
 
                 <div className='detalle-foo'>
                     <h2>Contáctanos</h2>
-                    <span> admin@flowupsolutions.com</span> <br/>
-                    <span>+51 991316320 </span><br/>
-                    <span> Facebook</span>
-                    <span> Linkdin </span>
+                    <span> admin@flowupsolutions.com</span> <br />
+                    <span>+51 991316320 </span><br />
+                    <a href="https://www.facebook.com/profile.php?id=61554718285482&locale=es_LA" target="_blank"><img src={navIcon1} alt="" style={{padding: '10px 20px'}}/></a>
+                    <a href="https://www.linkedin.com/company/flow-up-solutions/?viewAsMember=true" target="_blank"><img src={navIcon2} alt="" style={{padding: '10px 20px'}}/></a>
                 </div>
 
             </div>

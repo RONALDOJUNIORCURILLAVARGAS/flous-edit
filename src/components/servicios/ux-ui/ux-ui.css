@@ -20,7 +20,6 @@
 .ui, .ux {
     width: 430px;
     margin: auto;
-    border: 1px solid #020F56;
     border-radius: 20px;
     padding: 20px;
 }
@@ -48,6 +47,10 @@
     border-radius: 20px;
     text-decoration: none;
     color: #fff;
+}
+
+.nuevo-ui{
+    height: 500px !important;
 }
 
 @media (max-width: 1289px) {
@@ -134,3 +137,4 @@
         height: 200px;
     }
 }
+

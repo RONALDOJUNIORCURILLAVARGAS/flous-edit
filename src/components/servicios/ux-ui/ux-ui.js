@@ -1,8 +1,10 @@
 
 import React from "react";
 import './ux-ui.css'
-import uxui from '../../../assets/ux-ui.png'
+import uxui from '../../../assets/ux-ui1.png'
 import responsive from '../../../assets/responsive.png'
+import iconWhat from '../../../assets/icon-what.png'
+
 function UxUi() {
 
     return (
@@ -20,15 +22,20 @@ function UxUi() {
                 <div className="imagen-fondo-ux">
                     <img src={uxui} />
                 </div>
+
+                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
+                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
+                </a>
             </div>
             <br />
             <br />
             <br />
 
-            <div className="sect2 sect2-ui">
+            <div className="sect2 sect2-ui nuevo-ui">
                 <p className='title'>
                 Servicios de diseño UI/UX
                 </p>
+                <br/>
                 <span>Más de millones de usuarios automatizan sus empresas mejorando los procesos de negocio.</span>
                 <div className="descipcion-ux-ui">
                     <div className="ui">
@@ -48,12 +55,16 @@ function UxUi() {
                 <p className='title'>
                 Diseño de páginas web que transforman marcas
                 </p>
+                <br/>
+
                 <span>Más de millones de usuarios automatizan sus empresas mejorando los procesos de negocio.</span>
                 <div className="descipcion-ux-ui">
                     <div className="ui">
-                        <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                         <p>1. Análisis de marca</p>
                         <span>Evaluación y diagnóstico de la marca, identidad visual, web actual y benchmarketing digital.</span>
+                        <br/>
+                        <br/>
+                        <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     </div>
 
                     <div className="ux">
@@ -65,9 +76,10 @@ function UxUi() {
 
                 <div className="descipcion-ux-ui">
                     <div className="ui">
-                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                         <p>3. Identidad de marca</p>
                         <span>Diseñamos la interfaz basados en el branding de la marca, tenemos en cuenta las diferentes resoluciones de pantalla en la que se mostrará el sitio web.</span>
+                        <br/> <br/>
+                        <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                     </div>
 
                     <div className="ux">
@@ -104,7 +116,7 @@ function UxUi() {
                     <div>
                        Queremos ofrecerte la solución más óptima para el desarrollo de tu aplicativo 
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">¡Comienza tu proyecto!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://outlook.office365.com/owa/calendar/FlowUpSolutions1@flowupsolutions.com/bookings/" target="_blank">¡Comienza tu proyecto!</a>
                 </div>
             </div>
         </div>
