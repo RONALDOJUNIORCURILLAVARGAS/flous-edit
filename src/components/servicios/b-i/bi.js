@@ -6,6 +6,10 @@ import metodologia from '../../../assets/metodologia1.png';
 import gif from '../../../assets/gifts/etl.gif';
 import dasborad from '../../../assets/dasboard.png';
 import iconWhat from '../../../assets/icon-what.png'
+import img1 from '../../../assets/4230532-approve-check-cog-gear-pass-secure-tick_115010.png'
+import img2 from '../../../assets/analytics_data_visualization_market_trends_statistical_analysis_performance_metrics_icon_260966.png'
+import img3 from '../../../assets/automization_optimization_automation_process_task_delegation_workflow_automation_icon_261161.png'
+import img4 from '../../../assets/innovation_creativity_breakthrough_inventiveness_icon_261215.png'
 
 function BusinessIntelligence() {
     return (
@@ -22,7 +26,7 @@ function BusinessIntelligence() {
                         conocimiento mediante el análisis en tiempo real,
                         respaldando así el proceso de toma de decisiones.
                     </div>
-                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"  target="_blank">Comienza tu proyecto!!</a>
+                    <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">Comienza tu proyecto!!</a>
                 </div>
 
                 <div className="imagen-fondo fondo-img">
@@ -45,36 +49,30 @@ function BusinessIntelligence() {
                 <br />
                 <div className="servicios-bi1">
                     <div className=' altura'>
-                        <p>Integración y orquestación de
-                            datos en ambiente cloud y on
-
-                            premise</p>
-                        <span>Toma de decisiones
-                            basada en datos.</span>
+                        <br />
+                        <img src={img1} />
+                        <br />
+                        <span>Toma de decisiones basados en datos</span>
                     </div>
                     <div className=' altura'>
-                        <p>Administración de BBDD en la
-
-                            nube</p>
-
+                        <br />
+                        <img src={img2} />
+                        <br />
                         <span>Eficiencia operativa</span>
                     </div>
                     <div className=' altura'>
-                        <p>Migración de datos a
-                            Azure y a cualquier otra
-                            nube de datos</p>
-                        <span>Personalización y
-                            experiencia del
-                            cliente
+                    <br/>
+                        <img src={img3} />
+                        <br />
+                        <span>Personalización y experiencia del cliente
                         </span>
                     </div>
 
                     <div className=' altura'>
-                        <p>Migración de datos a
-                            Azure y a cualquier otra
-                            nube de datos</p>
-                        <span>Innovación y
-                            competitividad
+                    <br/>
+                        <img src={img4} />
+                        <br />
+                        <span>Innovación y competitividad
                         </span>
                     </div>
 
@@ -83,12 +81,12 @@ function BusinessIntelligence() {
             </div>
 
             <div className='nuestraMetodologia'>
-            <p className='title'>
+                <p className='title'>
                     Flujograma del proceso de datos
                 </p>
                 <br />
-            <br />
-            <br />
+                <br />
+                <br />
                 <img className="img-gif" src={gif} />
             </div>
             <br />
@@ -96,27 +94,27 @@ function BusinessIntelligence() {
             <br />
             <br />
             <div className='nuestraMetodologia'>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <img src={metodologia} />
             </div>
 
 
             <div className='sect2 sect-bi'>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <p className='title'>
                     Interactúa con este Dashboard
                 </p>
