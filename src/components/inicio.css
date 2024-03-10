@@ -5,7 +5,7 @@ body{
   }
   
   .home{
-    height: 650px !important;
+    /* height: 650px !important; */
     background-image: url('../assets/fondo-home.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body{
     align-items: center;
     text-align: center;
     color: #0C378E !important;
-    padding-top: 80px;
+   /*  padding-top: 80px; */
   }
   .dis {
     margin: auto;
@@ -331,7 +331,7 @@ body{
       width: 0;
     }
     .home {
-      height: 500px !important;
+      /* height: 500px !important; */
     }
   }
 

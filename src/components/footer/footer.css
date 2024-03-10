@@ -106,7 +106,7 @@ body{
     align-items: center;
     text-align: center;
     color: #0C378E !important;
-    padding-top: 80px;
+    /* padding-top: 80px; */
   }
   .dis {
     margin: auto;

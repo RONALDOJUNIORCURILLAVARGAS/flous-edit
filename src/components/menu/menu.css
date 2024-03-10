@@ -48,7 +48,7 @@
 }
 
 #bonav li a {
-  display: block;
+/*   display: block; */
   color: #03045E;
   text-decoration: none;
 }
@@ -95,7 +95,7 @@
 }
 
 #bonav > ul > li:not(:last-child) > a {
-  border-right: 1px solid #f4f4f4;
+  /* border-right: 1px solid #f4f4f4; */
 }
 
 #bonav > ul > li:hover > a,

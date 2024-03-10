@@ -25,7 +25,7 @@ function Menu() {
   
 
     return (
-        <div id='topnav-outside' expand="md" className={scrolled ? "scrolled" : ""}>
+        <div id='topnav-outside' expand="md" className={`${scrolled ? "scrolled" : ""} `}>
 
             <div id='topnav-intside'>
                 <div class='bofollowbutton-nav'>
@@ -46,7 +46,7 @@ function Menu() {
                         </li>
 
                         <li>
-                            <a href='/#'>
+                            <a href='/#' className='flex items-center'>
                                 <div className='logo'>
                                     <img src={logo} alt="logo" className="logo-img" />
                                 </div>
@@ -55,16 +55,16 @@ function Menu() {
 
                         <li class='has-child'><a aria-haspopup='true' href='#'>Servicios</a>
                             <ul>
-                                <li><a href='/#/business-intelligence'> Business intelligence</a></li>
-                                <li><a href='/#/power-platform'>Power apps</a></li>
-                                <li><a href='/#/ux-ui'> UX / UI</a></li>
-                                <li><a href='/#/desarrollo-software'>Desarrollo software</a></li>
+                                <li><a href='/#/business-intelligence' className='w-full block'> Business intelligence</a></li>
+                                <li><a href='/#/power-platform' className='w-full block'>Power apps</a></li>
+                                <li><a href='/#/ux-ui'  className='w-full block'> UX / UI</a></li>
+                                <li><a href='/#/desarrollo-software'  className='w-full block'>Desarrollo software</a></li>
                             </ul>
                         </li>
 
-                        <li><a href='/#/nosotros'>Nosotros</a></li>
-                        <li><a href='https://api.whatsapp.com/send?phone=51991316320&text=Flous' target="_blank">Contáctenos</a></li>
-                        <li><a href='https://outlook.office365.com/owa/calendar/FlowUpSolutions1@flowupsolutions.com/bookings/' target="_blank">Agendar reunión</a></li>
+                        <li className='flex justify-center items-center ease-in duration-75 hover:text-[18px]'><a href='/#/nosotros'>Nosotros</a></li>
+                        <li className='flex justify-center items-center ease-in duration-75 hover:text-[18px]'><a href='https://api.whatsapp.com/send?phone=51991316320&text=Flous' target="_blank">Contáctenos</a></li>
+                        <li className='flex justify-center items-center ease-in duration-75 hover:text-[18px]'><a href='https://outlook.office365.com/owa/calendar/FlowUpSolutions1@flowupsolutions.com/bookings/' target="_blank">Agendar reunión</a></li>
                     </ul>
                 </div>
             </div>

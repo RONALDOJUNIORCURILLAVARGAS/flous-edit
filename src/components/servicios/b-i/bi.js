@@ -39,7 +39,7 @@ function BusinessIntelligence() {
             </div>
 
 
-            <div className='sect2 sect-2-2-2'>
+            <div className='sect2 sect-2-2-2 px-[20px]  pt-[30px]'>
                 <p className='title'>
                     Beneficios de implementar la ingeniería de
 
@@ -47,30 +47,30 @@ function BusinessIntelligence() {
                 </p>
                 <br />
                 <br />
-                <div className="servicios-bi1">
-                    <div className=' altura'>
+                <div className="servicios-bi1 grid md:grid-cols-4 grid-cols-2 gap-4 max-w-6xl mx-auto">
+                    <div className=' altura px-[15px] py-[20px] duration-150 hover:scale-[1.055] pointer'>
                         <br />
-                        <img src={img1} />
+                        <img className="mx-auto" src={img1} />
                         <br />
                         <span>Toma de decisiones basados en datos</span>
                     </div>
-                    <div className=' altura'>
+                    <div className=' altura px-[15px] py-[20px] duration-150 hover:scale-[1.055] pointer'>
                         <br />
-                        <img src={img2} />
+                        <img className="mx-auto" src={img2} />
                         <br />
                         <span>Eficiencia operativa</span>
                     </div>
-                    <div className=' altura'>
+                    <div className=' altura px-[15px] py-[20px] duration-150 hover:scale-[1.055] pointer'>
                     <br/>
-                        <img src={img3} />
+                        <img className="mx-auto" src={img3} />
                         <br />
                         <span>Personalización y experiencia del cliente
                         </span>
                     </div>
 
-                    <div className=' altura'>
+                    <div className=' altura px-[15px] py-[20px] duration-150 hover:scale-[1.055] pointer'>
                     <br/>
-                        <img src={img4} />
+                        <img className="mx-auto" src={img4} />
                         <br />
                         <span>Innovación y competitividad
                         </span>
@@ -80,59 +80,37 @@ function BusinessIntelligence() {
                 </div>
             </div>
 
-            <div className='nuestraMetodologia'>
+            <div className='nuestraMetodologia mt-[50px] max-w-6xl mx-auto px-[20px] md:px-[0px]'>
+               
                 <p className='title'>
                     Flujograma del proceso de datos
                 </p>
-                <br />
-                <br />
-                <br />
-                <img className="img-gif" src={gif} />
+                
+                <img className="w-full mt-[20px]" src={gif} />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div className='nuestraMetodologia'>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+          
+            <div className='nuestraMetodologia mt-[50px] max-w-6xl mx-auto px-[20px] md:px-[0px]'>
+                
                 <img src={metodologia} />
             </div>
 
 
-            <div className='sect2 sect-bi'>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <p className='title'>
+            <div className=' sect-bi  mt-[50px] max-w-6xl mx-auto px-[20px] md:px-[0px]'>
+                
+                <p className='title text-center'>
                     Interactúa con este Dashboard
                 </p>
 
-                <p>
+                <p className="text-center">
                     Te invitamos a que interactues con nuestra demo de un caso de éxito
                 </p>
-                <img className="dasborad" src={dasborad} />
+                <img className="mx-auto mt-[30px] w-full md:w-auto md:h-[400px]" src={dasborad} />
 
             </div>
 
-            <div id='' className="sect3">
-                <div className=" texto text-footer">
-                    <br />
-                    <br />
-
-                    <br />
-                    <br />
+            <div id='' className="sect3 mt-[50px]">
+                <div className=" texto text-footer max-w-6xl mx-auto ">
+                    
 
                     <p>
                         ¿Visualizas oportunidades brillantes en tus datos?</p>
