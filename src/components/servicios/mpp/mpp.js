@@ -48,7 +48,7 @@ function Mpp() {
         </a>
       </div>
 
-      <div className="sect2 sect-2-2">
+      <div className="sect2 sect-2-2 max-w-6xl mx-auto text-center px-[20px] md:px-0">
         <p className="title">Busca la solución que más te acomoda</p>
 
         <p className="p p2">
@@ -125,52 +125,48 @@ function Mpp() {
         <br />
 
         <div className={mostrarDiv === "data" ? "data" : "oculto"}>
-          <div className="servicios servicio-mpp">
-            <div className=" dis-1">
-              <p>
-                Integración y orquestación de datos en ambiente cloud y on
-                premise
-              </p>
-              <span>
-                Transforma y organiza la información en la nube o de los
-                dispositivos de tu empresa para trabajar con más comodidad con
-                tus equipos.
-              </span>
-              <br />
-              <br />
-              <br />
-              <br />
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
+            <div className=" dis-1 w-full md:w-[60%] flex flex-col justify-between">
+              <div>
+                <p>
+                  Integración y orquestación de datos en ambiente cloud y on
+                  premise
+                </p>
+                <span>
+                  Transforma y organiza la información en la nube o de los
+                  dispositivos de tu empresa para trabajar con más comodidad con
+                  tus equipos.
+                </span>
+              </div>
 
               <a className="agendar-reu" to="/desarrollo-software">
                 Más información
               </a>
             </div>
-            <div className=" dis-1">
-              <p>Administración de BBDD en la nube</p>
-              <span>
-                Organiza tu empresa y la información privada y relevante para
-                administrarla de tu mejor forma. Siempre en la nube.
-              </span>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
+            <div className=" dis-1 w-full md:w-[60%] flex flex-col justify-between">
+              <div className="">
+                <p>Administración de BBDD en la nube</p>
+                <span>
+                  Organiza tu empresa y la información privada y relevante para
+                  administrarla de tu mejor forma. Siempre en la nube.
+                </span>
+              </div>
 
               <a className="agendar-reu" to="/business-intelligence">
                 Más información
               </a>
             </div>
-            <div className=" dis-1">
-              <p>Migración de datos a Azure y a cualquier otra nube de datos</p>
+            <div className=" dis-1 w-full md:w-[60%] flex flex-col justify-between">
+              <div>
+                <p>Migración de datos a Azure y a cualquier otra nube de datos</p>
               <span>
                 Deja toda la información de tu empresa en la nube de Microsoft,
                 Azure o en la que sea de tu gusto, Traslada todo y organiza los
                 datos desde un solo lugar y bajo tu administración.
               </span>
-              <br />
-              <br />
-              <br />
+              </div>
+              
+              
               <a className="agendar-reu" to="/power-platform">
                 Más información
               </a>
@@ -522,14 +518,21 @@ function Mpp() {
         <br />
       </div>
 
-      <div className="sect2">
+      <div className="sect2 max-w-6xl mx-auto text-center px-[20px] md:px-0">
         <p className="title">Demo utilizando Microsoft Power Plataform</p>
         <br />
         <span>
           Te invitamos a que interactues con nuestra demo de un caso de éxito
         </span>
         <br /> <br />
-        <video className="video" autoPlay muted loop width="800" height="600">
+        <video
+          className="video mx-auto"
+          autoPlay
+          muted
+          loop
+          width="800"
+          height="600"
+        >
           <source src={videoFile} type="video/mp4" />
           Tu navegador no soporta el tag de video.
         </video>
@@ -539,7 +542,7 @@ function Mpp() {
       <br />
       <br />
       <div id="" className="sect3">
-        <div className=" texto text-footer">
+        <div className=" texto text-footer max-w-6xl mx-auto text-center px-[20px] md:px-0">
           <br />
           <br />
           <br />

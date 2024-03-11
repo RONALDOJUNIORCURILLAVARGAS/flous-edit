@@ -31,8 +31,8 @@ function DesarrolloS() {
           </a>
         </div>
 
-        <div className="imagen-fondo-ds">
-          <img src={ds} />
+        <div className="imagen-fondo-ds  hidden md:block">
+          <img src={ds} className="ml-[50%] translate-x-[-50%]" />
         </div>
         <a
           className="iconWhat"
@@ -58,7 +58,7 @@ function DesarrolloS() {
       </div>
 
       <div id="" className="sect3">
-        <div className=" texto text-footer">
+        <div className=" texto text-footer max-w-6xl mx-auto text-center px-[20px] md:px-0">
           <br />
           <br />
           <br />

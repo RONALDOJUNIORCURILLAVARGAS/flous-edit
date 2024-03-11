@@ -3,7 +3,9 @@ body {
   padding: 0;
   background: transparent;
 }
-
+/* .carousel-socios .carousel-item{
+  margin-right: 10px;
+} */
 .home {
   /* height: 650px !important; */
   background-image: url("../assets/fondo-home.png");
@@ -130,14 +132,19 @@ body {
 .dis {
   box-shadow: 0 8px 8px -4px lightblue;
 }
-
-.socios img {
-  width: 30px;
-  height: 110px;
+.img-socios{
+  background-color: #fcfcfcbd;
+  border-radius: 10px;
+  min-height: 100px;
+  padding: 5px;
+}
+/* .socios img {
+  
   background-color: #fcfcfcbd;
   border-radius: 10px;
   padding: 20px;
 }
+ */
 
 .socios .carru {
   width: 80%;

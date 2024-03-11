@@ -1,7 +1,7 @@
 .texto p {
   text-transform: uppercase;
   font-size: 50px;
-  font-family: Montserrat, 'Arial Narrow Bold', sans-serif;
+  font-family: Montserrat, "Arial Narrow Bold", sans-serif;
   margin-bottom: 10px;
   text-align: center;
   font-weight: 900;
@@ -11,7 +11,7 @@
   position: relative;
   width: 100%;
   height: 600px;
-  background-image: url('../../../assets/fondo2.png');
+  background-image: url("../../../assets/fondo2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,9 +26,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 50% 0 0 50%;
-
-
-
 }
 
 .imagen-fondo img {
@@ -85,7 +82,6 @@
   text-align: center;
   font-weight: 400;
   line-height: normal;
-
 }
 
 .texto-info img {
@@ -106,26 +102,22 @@
 }
 
 .content2 .p-b {
-  background-color: #03045E;
+  background-color: #03045e;
   padding: 15px 30px;
   color: #fff;
   border-radius: 20px;
   margin: 50px 20px 10px 10px;
 }
 
-
-
-
 .servicios p {
   font-size: 20px;
   font-weight: 900;
   padding: 10px 0;
-  color: #0C378E;
+  color: #0c378e;
 }
 
 .dis-1 {
  
-  width: 25%;
   margin: 10px;
   text-align: center;
   border-radius: 10px;
@@ -135,7 +127,6 @@
   padding: 25px;
   background: #eee;
   box-shadow: 0 8px 8px -4px lightblue;
-
 }
 
 .servicios span {
@@ -143,28 +134,22 @@
 }
 
 .title {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 50px;
   /* margin: auto; */
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #0C378E !important;
- 
+  color: #0c378e !important;
 }
 
-
-
 .sect3 {
-  background-image: url('../../../assets/fondo-mpp.png');
+  background-image: url("../../../assets/fondo-mpp.png");
   height: 600px;
   width: 100%;
   background-position: center;
   background-size: cover;
-
 }
-
-
 
 .oculto {
   display: none;
@@ -185,15 +170,10 @@
     height: 1174px !important;
   }
 
-  .content2 {}
-
-  .dis-1 {
-    height: 486px !important;
+  .content2 {
   }
 
-  .video {
-    height: 60% !important;
-  }
+  
 }
 
 @media (max-width: 896px) {
@@ -205,19 +185,11 @@
     font-size: 15px;
   }
 
-  .dis-1 {
-    width: 40%;
-    height: 350px;
-  }
+  
 
   .sect-2-2 {
     height: 1683px !important;
   }
-
-  .video {
-    width: 60% !important;
-  }
-
 }
 
 @media (max-width: 866px) {
@@ -232,15 +204,10 @@
   .p2 {
     padding: 0 50px;
   }
-
 }
 
 @media (max-width: 646px) {
-
-  .dis-1 {
-    width: 60%;
-    height: 300px !important;
-  }
+  
 
   .sect-2-2 {
     height: 1917px !important;
@@ -253,9 +220,5 @@
   .content2 .p-b {
     margin: 32px 16px -4px 3px;
     padding: 17px 7px;
-  }
-
-  .video {
-    margin-top: -150px;
   }
 }

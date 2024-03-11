@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./inicio.css";
 import Carrusel from "./carrusel/carrusel";
 import Carousel from "infinite-react-carousel";
@@ -6,9 +6,33 @@ import { Link } from "react-router-dom";
 import iconWhat from "../assets/icon-what.png";
 import fondoMetodologia from "../assets/metodologia.png";
 function Home() {
+  const [slidesToShow, setSlidesToShow] = useState(5);
+  const handleResponsive = () => {
+    // Obtén el ancho de la ventana
+    const windowWidth = window.innerWidth;
+
+    // Ajusta slidesToShow según el ancho de la ventana
+    if (windowWidth > 1000) {
+      setSlidesToShow(4);
+    } else if (windowWidth <= 1000 && windowWidth > 800) {
+      setSlidesToShow(2);
+    } else {
+      setSlidesToShow(2);
+    }
+  };
+  useEffect(() => {
+    // Escucha el cambio de tamaño de la ventana
+    window.addEventListener("resize", handleResponsive);
+
+    // Limpia el evento al desmontar el componente
+    return () => {
+      window.removeEventListener("resize", handleResponsive);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <div className="home">
+      <div className="home mt-[30px] md:mt-0">
         {/* banner */}
         <div className="banner1">
           <div className="descripcion">
@@ -124,68 +148,92 @@ function Home() {
         <br />
         <Carousel
           autoplay={true}
-          slidesToShow={5}
-          className="carru"
+          slidesToShow={slidesToShow}
+          className="carru carousel-socios"
           autoplaySpeed={1950}
           centerMode={true}
           centerPadding={0}
           swipe={false}
         >
-          <img
-            className="img-socios"
-            src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"
-            alt="Java Logo"
-          />
-          <div></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"
+                alt="Java Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://miro.medium.com/v2/resize:fit:399/1*-5k3wiB9V0Yczp9JoBODSA.png"
-            alt="Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://miro.medium.com/v2/resize:fit:399/1*-5k3wiB9V0Yczp9JoBODSA.png"
+                alt="Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA"
-            alt="Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA"
+                alt="Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png"
-            alt="Scala Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png"
+                alt="Scala Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://s3-alpha.figma.com/hub/file/2811018019/cae7d25d-8aff-4c49-8189-fad585dfb7cb-cover.png"
-            alt="Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://s3-alpha.figma.com/hub/file/2811018019/cae7d25d-8aff-4c49-8189-fad585dfb7cb-cover.png"
+                alt="Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png"
-            alt="Microsoft Power BI Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px]">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png"
+                alt="Microsoft Power BI Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA"
-            alt="Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px] ">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://media.licdn.com/dms/image/D4D12AQHxJEfCMmvqVw/article-cover_image-shrink_720_1280/0/1681895099008?e=2147483647&v=beta&t=Gjwwy8sqx8hUgHEc_AkNWlnfGlPxhBLjt4CBxMwwVPA"
+                alt="Logo"
+              />
+            </div>
+          </div>
 
-          <img
-            className="img-socios"
-            src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png"
-            alt="Scala Logo"
-          />
-          <div className="espacio"></div>
+          <div className="px-[5px] ">
+            <div className="p-[5px] bg-gray-flous flex items-center justify-center rounded-[10px]">
+              <img
+                className="h-[80px]"
+                src="https://dwglogo.com/wp-content/uploads/2017/09/1300px-Scala_logo.png"
+                alt="Scala Logo"
+              />
+            </div>
+          </div>
         </Carousel>
       </div>
 
