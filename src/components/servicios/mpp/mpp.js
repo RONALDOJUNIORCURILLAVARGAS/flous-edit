@@ -18,7 +18,7 @@ function Mpp() {
         <div className="texto">
           <p>Microsoft Power Plataform </p>
           <br />
-          <div>
+          <div className="px-[20px] p-0">
             Adéntrate en las soluciones ofrecidas por Microsoft Power Platform,
             especialmente diseñadas para empresas, y descubre las diversas
             oportunidades que brindan. Desde analizar datos con Power BI hasta

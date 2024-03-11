@@ -14,7 +14,7 @@ function UxUi() {
                     <p>Fortalece la presencia digital de tu marca  </p>
                     <br />
 
-                    <div>
+                    <div className="px-[20px] md:p-0">
                         Diseñamos experiencias digitales personalizadas y eficaciones para potenciar la posición de las empresas en el mercado. Tu página web debe estar lista para ser el epicentro de tu marca en el entorno digital.                    </div>
                     <br /> <br />  <br /> <a className='buttom' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">Comienza tu proyecto!!</a>
                 </div>
@@ -102,7 +102,7 @@ function UxUi() {
             </div>
        
             <div id='' className="sect3">
-                <div className=" texto text-footer">
+                <div className=" texto text-footer max-w-6xl mx-auto text-center px-[20px] md:px-0">
                     <br />
                     <br />
 
