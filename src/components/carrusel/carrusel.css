@@ -1,31 +1,31 @@
 .carrusel{
-    width: 80%;
+    /* width: 80%;
     margin: auto;
-    padding: 20px;
+    padding: 20px; */
 
 }
 .card-content {
     background-color: #03045E;
-    height: 350px;
+    /* height: 350px; */
 }
 
 .descrip-carrusel{
      background-color: #4f508c;
-     padding: 2px;
-     margin: 0px 20px;
+    /*  padding: 2px;
+     margin: 0px 20px; */
      border-radius: 20px;
      font-size: 22px;
 }
 
 @media (max-width: 1145px) {
     .card-content {
-      height: 550px;
+     /*  height: 550px; */
     }
   }
 
   
 @media (max-width: 1145px) {
     .card-content {
-      height: 550px;
+      /* height: 550px; */
     }
   }

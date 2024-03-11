@@ -63,6 +63,7 @@ const Carrusel = () => {
         slidesToShow={slidesToShow}
         className="carru"
         autoplaySpeed={1500}
+         
       >
         {/* aqui el codifo  */}
 
@@ -70,12 +71,12 @@ const Carrusel = () => {
           <div key={index} className='card'>
 
             <div
-              className='card-content'
+              className='card-content mx-[10px] px-[30px] py-[40px] h-[387px]'
               style={{
                 borderRadius: '15px',
-                padding: '10px',
-                margin: '10px',
-                marginTop: '50px'
+                
+                /* margin: '10px',
+                marginTop: '50px' */
               }}
             >
              {/*  <img
@@ -89,12 +90,11 @@ const Carrusel = () => {
                   marginTop: '-50px'
                 }}
               /> */}
-              <br />
-              <br />
-              <div className='descrip-carrusel'>
+             
+              <div className='descrip-carrusel py-[26px] text-center'>
                 <h3 style={{ color: 'white' }}>{item.nombre}</h3>
               </div>
-              <p style={{ color: 'white', textAlign: 'justify', padding: '0 20px' }}>{item.descripcion}</p>
+              <p className='mt-[20px]' style={{ color: 'white', textAlign: 'justify', padding: '0 20px' }}>{item.descripcion}</p>
             </div>
           </div>
         ))}
