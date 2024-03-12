@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b3d6387.css",
-    "main.js": "/static/js/main.f6a6ba47.js",
+    "main.css": "/static/css/main.32771b5c.css",
+    "main.js": "/static/js/main.4be12ed5.js",
     "static/js/453.9125e9e8.chunk.js": "/static/js/453.9125e9e8.chunk.js",
     "static/media/Geconsac.mp4": "/static/media/Geconsac.8569b5365d62ec189ad7.mp4",
     "static/media/fondo-mpp.png": "/static/media/fondo-mpp.dfd9aaa8050bb6ecffc8.png",
@@ -28,17 +28,18 @@
     "static/media/piero.png": "/static/media/piero.ba3eb89efbe427069cb7.png",
     "static/media/icon-what.png": "/static/media/icon-what.d809ddfd2be0fdb9fb65.png",
     "static/media/scala.png": "/static/media/scala.1568310c146b519ca634.png",
+    "static/media/logo-white.svg": "/static/media/logo-white.afe906ec73348a30d481b7a59a0794ba.svg",
     "static/media/creativity_innovation_brainstorming_inspiration_vision_icon_260962.svg": "/static/media/creativity_innovation_brainstorming_inspiration_vision_icon_260962.725bf35ffd9d4051e3a20476df8fe081.svg",
     "static/media/4312965eternaleyeopticorganvision-115887_115833.svg": "/static/media/4312965eternaleyeopticorganvision-115887_115833.c4b6e9ced02b7e782654f8e71c4c390f.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.4b3d6387.css.map": "/static/css/main.4b3d6387.css.map",
-    "main.f6a6ba47.js.map": "/static/js/main.f6a6ba47.js.map",
+    "main.32771b5c.css.map": "/static/css/main.32771b5c.css.map",
+    "main.4be12ed5.js.map": "/static/js/main.4be12ed5.js.map",
     "453.9125e9e8.chunk.js.map": "/static/js/453.9125e9e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b3d6387.css",
-    "static/js/main.f6a6ba47.js"
+    "static/css/main.32771b5c.css",
+    "static/js/main.4be12ed5.js"
   ]
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/logo/logo-white.svg";
+import logodesktop from "../../assets/logo.png"
 import "./menu.css";
 import { useEffect } from "react";
 
@@ -65,13 +66,7 @@ function Menu() {
           </div>
           <div>
             <ul className="flex flex-col  gap-[15px] mt-[30px]">
-              {/* <li>
-                <a href="/#" className="flex items-center">
-                  <div className="logo">
-                    <img src={logo} alt="logo" className="logo-img" />
-                  </div>
-                </a>
-              </li> */}
+             
 
               <li class="has-child">
                 <a aria-haspopup="true" className="text-3xl" href="#">
@@ -177,7 +172,7 @@ function Menu() {
               <li>
                 <a href="/#" className="flex items-center">
                   <div className="logo">
-                    <img src={logo} alt="logo" className="logo-img" />
+                    <img src={logodesktop} alt="logo" className="logo-img" />
                   </div>
                 </a>
               </li>
