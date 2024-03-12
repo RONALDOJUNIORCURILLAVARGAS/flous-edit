@@ -1,5 +1,5 @@
 .imagen-fondo-ux {
-  width: 90%;
+  /* width: 90%; */
   height: 100%;
   background: #fff;
   margin: auto;
@@ -8,17 +8,14 @@
   border-radius: 50% 0 0 50%;
 }
 .imagen-fondo-ux img {
-  width: 90%;
+  width: 80%;
   margin-top: 20%;
 }
-.descipcion-ux-ui {
-  display: flex;
-  margin: 50px 150px;
-}
+
 .ui,
 .ux {
-  width: 430px;
-  margin: auto;
+  /* width: 430px;
+  margin: auto; */
   border-radius: 20px;
   padding: 20px;
 }
@@ -32,10 +29,9 @@
 
 .ui img,
 .ux img {
-  width: 400px;
+ /*  width: 400px; */
   border-radius: 20px;
 }
-
 
 .img-ux {
   height: 500px;
@@ -60,26 +56,10 @@
     width: 70%;
     margin-top: 65%;
   }
-  .ui,
-  .ux {
-    width: 349px;
-  }
-  .descipcion-ux-ui {
-    margin: 20px 5px;
-  }
-  .descipcion-ux-ui img {
-    width: 340px;
-  }
 }
 
 @media (max-width: 1044px) {
-  .ui,
-  .ux {
-    width: 250px;
-  }
-  .descipcion-ux-ui img {
-    width: 260px;
-  }
+
 }
 
 @media (max-width: 990px) {
@@ -92,30 +72,16 @@
 }
 
 @media (max-width: 850px) {
-  .ui,
-  .ux {
-    width: 200px;
-  }
-  .descipcion-ux-ui {
-    margin: 12px 50px;
-  }
-  .descipcion-ux-ui img {
-    width: 200px;
-  }
+ 
   .img-ux {
     height: 300px;
   }
 }
 
 @media (max-width: 680px) {
-  
 }
 
 @media (max-width: 595px) {
-  .sect2-ui {
-    height: 1288px;
-  }
-  
   .descipcion-ux-ui {
     display: block;
   }

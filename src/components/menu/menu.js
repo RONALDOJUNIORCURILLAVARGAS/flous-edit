@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo/logo-white.svg";
 import "./menu.css";
 import { useEffect } from "react";
 
@@ -28,12 +28,12 @@ function Menu() {
         <button onClick={()=>{setshowMenu(!showMenu)}} className="bg-red  absolute translate-y-[-50%] top-[50%] right-[20px]">
           &#9776;
         </button>
-        <div className="bg-white px-[10px] py-[5px] rounded-[15px]">
+        <div className="">
           <img src={logo} alt="logo" className="logo-img w-[150px]" />
         </div>
         
       </div>
-      <div className={`w-screen flex flex-col justify-between  text-white px-[20px] py-[50px] bg-blue-flous fixed z-[5] h-screen duration-200
+      <div className={`w-screen block md:hidden flex flex-col justify-between  text-white px-[20px] py-[50px] bg-blue-flous fixed z-[5] h-screen duration-200
        ${showMenu?'right-0':'right-[100vw]'}
       `}>
         {/* SECCION DE CONTINDO DE MENU MOBILE */}
@@ -41,7 +41,7 @@ function Menu() {
           <div className="flex justify-between">
             <div className="text-[40px]">
               {" "}
-              <a href="/#" className="flex items-center bg-white px-[10px] py-[5px] rounded-[15px]" >
+              <a href="/#" className="flex items-center " >
                 <div className="logo">
                   <img src={logo} alt="logo" className="logo-img w-[150px]" />
                 </div>

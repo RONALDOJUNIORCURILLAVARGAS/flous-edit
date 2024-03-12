@@ -63,7 +63,7 @@ function Mpp() {
         <span className="p p2">
           Actualmente clasificamos las soluciones en las siguientes categorías:
         </span>
-        <div className="content2">
+        <div className="content2 grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 md:mt-[50px]">
           <button
             className={`p-b ${mostrarDiv === "portales" ? "selected" : ""}`}
             onClick={() => mostrarContenido("portales")}
@@ -92,7 +92,7 @@ function Mpp() {
           </button>
         </div>
 
-        <div className="content2">
+        <div className="content2 grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
           <button
             className={`p-b ${mostrarDiv === "data" ? "selected" : ""}`}
             onClick={() => mostrarContenido("data")}
@@ -158,15 +158,17 @@ function Mpp() {
             </div>
             <div className=" dis-1 w-full md:w-[60%] flex flex-col justify-between">
               <div>
-                <p>Migración de datos a Azure y a cualquier otra nube de datos</p>
-              <span>
-                Deja toda la información de tu empresa en la nube de Microsoft,
-                Azure o en la que sea de tu gusto, Traslada todo y organiza los
-                datos desde un solo lugar y bajo tu administración.
-              </span>
+                <p>
+                  Migración de datos a Azure y a cualquier otra nube de datos
+                </p>
+                <span>
+                  Deja toda la información de tu empresa en la nube de
+                  Microsoft, Azure o en la que sea de tu gusto, Traslada todo y
+                  organiza los datos desde un solo lugar y bajo tu
+                  administración.
+                </span>
               </div>
-              
-              
+
               <a className="agendar-reu" to="/power-platform">
                 Más información
               </a>
@@ -179,7 +181,7 @@ function Mpp() {
             mostrarDiv === "analitica-data" ? "analitica-data" : "oculto"
           }
         >
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-cente">
             <div className=" dis-1">
               <p>Gobierno de Power BI</p>
               <span>
@@ -226,7 +228,7 @@ function Mpp() {
         <div
           className={mostrarDiv === "app-process" ? "app-process" : "oculto"}
         >
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>Desarrollo aplicaciones Power Apps Canvas</p>
               <span>
@@ -275,7 +277,7 @@ function Mpp() {
           </div>
         </div>
         <div className={mostrarDiv === "seguridad" ? "seguridad" : "oculto"}>
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>Implementación modelo Zero Trust</p>
               <span>
@@ -321,7 +323,7 @@ function Mpp() {
         </div>
 
         <div className={mostrarDiv === "portales" ? "portales" : "oculto"}>
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>Sitio web</p>
               <span>
@@ -375,7 +377,7 @@ function Mpp() {
               : "oculto"
           }
         >
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>Doctor 365</p>
               <span>
@@ -423,7 +425,7 @@ function Mpp() {
         </div>
 
         <div className={mostrarDiv === "desarrollo" ? "desarrollo" : "oculto"}>
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>SharePoint mediante SPFX, MSGraph y Power Platform</p>
               <span>
@@ -471,7 +473,7 @@ function Mpp() {
         </div>
 
         <div className={mostrarDiv === "migracion" ? "migracion" : "oculto"}>
-          <div className="servicios servicio-mpp">
+          <div className="servicios servicio-mpp flex flex-col gap-5 md:flex-row justify-center">
             <div className=" dis-1">
               <p>Migración de gestores documentales a SharePoint</p>
               <span>

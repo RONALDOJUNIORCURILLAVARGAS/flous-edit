@@ -48,7 +48,7 @@
 .sect2 {
   /* height: 740px; */
   width: 100%;
-  margin: auto;
+  /*   margin: auto; */
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -95,8 +95,7 @@
 }
 
 .content2 {
-  display: flex;
-  margin: auto;
+ 
   justify-content: center;
   align-items: center;
 }
@@ -106,7 +105,6 @@
   padding: 15px 30px;
   color: #fff;
   border-radius: 20px;
-  margin: 50px 20px 10px 10px;
 }
 
 .servicios p {
@@ -118,12 +116,11 @@
 
 .dis-1 {
  
-  margin: 10px;
   text-align: center;
   border-radius: 10px;
   height: 353px !important;
   font-weight: 600;
-  margin: 0 10px;
+
   padding: 25px;
   background: #eee;
   box-shadow: 0 8px 8px -4px lightblue;
@@ -169,11 +166,6 @@
   .sect-2-2 {
     height: 1174px !important;
   }
-
-  .content2 {
-  }
-
-  
 }
 
 @media (max-width: 896px) {
@@ -184,8 +176,6 @@
   .texto div {
     font-size: 15px;
   }
-
-  
 
   .sect-2-2 {
     height: 1683px !important;
@@ -207,8 +197,6 @@
 }
 
 @media (max-width: 646px) {
-  
-
   .sect-2-2 {
     height: 1917px !important;
   }
@@ -218,7 +206,6 @@
   }
 
   .content2 .p-b {
-    margin: 32px 16px -4px 3px;
     padding: 17px 7px;
   }
 }
