@@ -52,8 +52,44 @@ function DesarrolloS() {
           <img className="desarrollo w-full md:mx-auto" src={metodologia1} />
         </div>
 
-        <div className="sect2">
+        <div className="sect2 mt-[40px] grid-cols-2 md:grid md:grid-cols-2 gap-[24px]">
           <img className="desarrollo w-full md:mx-auto" src={metodologia2} />
+          <div className="flex flex-col gap-[20px] mt-[30px] md:mt-0">
+            <div>
+              <h3 className="text-blue-flous text-[32px] font-bold tracking-[-.025em] ">
+                Desarrollo de Aplicaciones
+              </h3>
+              <p className="text-justify text-blue-flous">
+                Nuestro equipo de programadores crean apliaciones excepcionales
+                para una amplia gama de dispositivoos. Y ello gracias a nuestra
+                experiencia en la industria, brindamos al usuario la mejor
+                experiencia de aplicación a través de diversos canales.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-blue-flous text-[32px] font-bold tracking-[-.025em]">
+                Desarrollo Bajo Demanda
+              </h3>
+              <p className="text-justify text-blue-flous">
+                Elija nuestro equipo para el desarrollo de software bajo demanda
+                y obtenga flexibilidad, experiencia y calidad inigualables.
+                Nuestra colaboración transparente, respaldada por tecnología
+                avanzada, asegura soluciones adaptadas a sus necesidades. Con
+                nosotros, tendrá un socio confiable para el éxito a largo plazo
+                de su proyecto.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-blue-flous text-[32px] font-bold tracking-[-.025em]">
+                Soporte de Producto
+              </h3>
+              <p className="text-justify text-blue-flous">
+                Estamos asociados con otros líderes de la industria para
+                implementar soluciones de desarrollo de software personalizado
+                de calidad para nuestros clientes.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
