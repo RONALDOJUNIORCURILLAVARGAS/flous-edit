@@ -8,8 +8,16 @@ function Nosostros() {
     return (
         <div className="card-nosotros">
             <div className="header-nosotros">
-                <div>
-                    <p>
+                
+
+                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
+                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
+                </a>
+            </div>
+            <br />
+            <div className="max-w-6xl mx-auto text-center px-[20px] md:px-0">
+                <div className="p-[50px] bg-gray-mision-vision rounded-[20px]">
+                    <p className="text-blue-mision-vision text-[50px] font-impact-mision-vision">
                         Acerca de nosotros
                     </p>
                     <br />
@@ -21,14 +29,10 @@ function Nosostros() {
                         En Flous, valoramos la colaboración, la creatividad y la excelencia en cada proyecto que emprendemos. Estamos comprometidos con la constante innovación y el aprendizaje para ofrecer siempre servicios de la más alta calidad, convirtiéndonos en socios de confianza para impulsar el éxito y el crecimiento sostenible de nuestros clientes en la era digital
                     </span>
                 </div>
-
-                <a className='iconWhat' href="https://api.whatsapp.com/send?phone=51991316320&text=Flous" target="_blank">
-                    <img src={iconWhat} alt="Descripción de la imagen" width={90} />
-                </a>
-            </div>
-            <br />
-            <div className="mision-vision">
-                <div className="mision">
+                    
+                </div>
+            <div className="mision-vision mt-[40px] max-w-6xl mx-auto text-center px-[20px] md:px-0 flex flex-col  md:grid  md:grid-cols-2 gap-[20px] md:gap-[50px]">
+                <div className="mision p-[50px]">
                     <p>
                         <img src={mision} width={60}  style={{marginRight: '10px'}}/>
                         Misión
@@ -39,7 +43,7 @@ function Nosostros() {
 
                     </span>
                 </div>
-                <div className="mision">
+                <div className="mision p-[50px]">
                     <p>
                     <img src={vision} width={80} style={{marginRight: '10px'}}/>
                         Visión
@@ -53,7 +57,7 @@ function Nosostros() {
             <br />
 
             <div id='' className="sect3">
-                <div className=" texto text-footer">
+                <div className=" texto text-footer max-w-6xl mx-auto text-center px-[20px] md:px-0">
                     <br />
                     <br />
 

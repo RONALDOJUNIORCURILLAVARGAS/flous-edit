@@ -7,6 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.font-impact-mision-vision{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0C378E !important;
+}
 .header-nosotros div {
     width: 36%;
     background-color: rgb(238, 238, 238);
@@ -28,19 +37,12 @@
     color: rgb(41, 39, 39);
     font-weight: 300;
 }
-.mision-vision {
-    width: 90%;
-    display: flex;
-    margin: auto;
-    
-}
+
 
 .mision-vision .mision {
     background-color: rgb(238, 238, 238);
     color: #000;
-    padding:50px;
     border-radius: 20px;
-    margin: 20px 30px;
 }
 
 @media (max-width: 1289px) {
@@ -59,9 +61,7 @@
     .header-nosotros div {
         width: 86%;
     }
-    .mision-vision{
-        display: block;
-    }
+    
 }
 
 @media (max-width: 720px) {

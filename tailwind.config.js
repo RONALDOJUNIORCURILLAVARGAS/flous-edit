@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         "blue-flous":"#03045E",
         "gray-flous":"#fcfcfcbd",
+        "gray-mision-vision":"#eeeeee",
+        "blue-mision-vision":"#0C378E"
       }
       
     },
