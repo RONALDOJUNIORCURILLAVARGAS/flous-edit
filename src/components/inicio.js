@@ -66,7 +66,7 @@ function Home() {
       <div id="servicios1" className="servicios1">
         <p className="title">Servicios</p>
 
-        <div className="servicios servi-inicio mt-[20px] md:mt-[30px] px-[20px] md:px-0 grid  grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div className="servicios servi-inicio mt-[20px] md:mt-[30px] px-[20px] md:px-0 grid  grid-cols-1 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
           <div className="dis p-[20px] text-center justify-center flex flex-col justify-between gap-[10px]">
             <div>
               <p>Desarrollo software</p>

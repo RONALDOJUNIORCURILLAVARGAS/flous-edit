@@ -71,7 +71,7 @@ const Carrusel = () => {
           <div key={index} className='card'>
 
             <div
-              className='card-content mx-[10px] px-[30px] py-[40px] h-[387px]'
+              className='card-content mx-[10px] px-[30px] py-[40px] h-[500px] md:h-[387px]'
               style={{
                 borderRadius: '15px',
                 
