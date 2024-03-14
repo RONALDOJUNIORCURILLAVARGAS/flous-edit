@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.262d6436.css",
-    "main.js": "/static/js/main.2741af7a.js",
+    "main.css": "/static/css/main.9d9c8e00.css",
+    "main.js": "/static/js/main.f475f7cc.js",
     "static/js/453.9125e9e8.chunk.js": "/static/js/453.9125e9e8.chunk.js",
     "static/media/Geconsac.mp4": "/static/media/Geconsac.8569b5365d62ec189ad7.mp4",
     "static/media/fondo-mpp.png": "/static/media/fondo-mpp.dfd9aaa8050bb6ecffc8.png",
@@ -11,12 +11,12 @@
     "static/media/fondo2.png": "/static/media/fondo2.d66642dd512da13aa0ca.png",
     "static/media/responsive.png": "/static/media/responsive.315ce41d83eedcd7d71a.png",
     "static/media/apps.svg": "/static/media/apps.ac993d7f8a415bdc3205a8d1caf9572e.svg",
+    "static/media/desarrollo-soft2.png": "/static/media/desarrollo-soft2.f5a351875bcaa3b34867.png",
     "static/media/busness-In.png": "/static/media/busness-In.906f2594dd43f10fd908.png",
     "static/media/dasboard.png": "/static/media/dasboard.e43d6a9c94b865c82de4.png",
     "static/media/ux-ui1.png": "/static/media/ux-ui1.33a037e0cf066f75444f.png",
     "static/media/image-home.png": "/static/media/image-home.4300dd9dc87154021657.png",
     "static/media/desarrollo-soft.png": "/static/media/desarrollo-soft.984438070486cb3963a3.png",
-    "static/media/desarrollo-soft2.png": "/static/media/desarrollo-soft2.c53a060e36d800bb1e49.png",
     "static/media/mpp.png": "/static/media/mpp.d4686ddbb6bc175b243f.png",
     "static/media/desarrollo-soft1.png": "/static/media/desarrollo-soft1.2f2fde7161aa9f26b768.png",
     "static/media/metodologia1.png": "/static/media/metodologia1.6cced9aab0d07f722306.png",
@@ -28,18 +28,18 @@
     "static/media/piero.png": "/static/media/piero.ba3eb89efbe427069cb7.png",
     "static/media/icon-what.png": "/static/media/icon-what.d809ddfd2be0fdb9fb65.png",
     "static/media/scala.png": "/static/media/scala.1568310c146b519ca634.png",
-    "static/media/logo-white.svg": "/static/media/logo-white.472664521d021608f4337fa33271276f.svg",
+    "static/media/logo-white.svg": "/static/media/logo-white.afe906ec73348a30d481b7a59a0794ba.svg",
     "static/media/creativity_innovation_brainstorming_inspiration_vision_icon_260962.svg": "/static/media/creativity_innovation_brainstorming_inspiration_vision_icon_260962.725bf35ffd9d4051e3a20476df8fe081.svg",
     "static/media/4312965eternaleyeopticorganvision-115887_115833.svg": "/static/media/4312965eternaleyeopticorganvision-115887_115833.c4b6e9ced02b7e782654f8e71c4c390f.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.262d6436.css.map": "/static/css/main.262d6436.css.map",
-    "main.2741af7a.js.map": "/static/js/main.2741af7a.js.map",
+    "main.9d9c8e00.css.map": "/static/css/main.9d9c8e00.css.map",
+    "main.f475f7cc.js.map": "/static/js/main.f475f7cc.js.map",
     "453.9125e9e8.chunk.js.map": "/static/js/453.9125e9e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.262d6436.css",
-    "static/js/main.2741af7a.js"
+    "static/css/main.9d9c8e00.css",
+    "static/js/main.f475f7cc.js"
   ]
 }

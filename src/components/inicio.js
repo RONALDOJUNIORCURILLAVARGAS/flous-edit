@@ -47,7 +47,7 @@ function Home() {
             <br /> <br /> <br />{" "}
             <a
               className="buttom"
-              href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"
+              href="https://api.whatsapp.com/send?phone=51991316320&text=Hola%F0%9F%91%8B,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20..."
               target="_blank"
             >
               Contáctenos
@@ -56,7 +56,7 @@ function Home() {
           <div className="fondo"></div>
           <a
             className="iconWhat"
-            href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"
+            href="https://api.whatsapp.com/send?phone=51991316320&text=Hola%F0%9F%91%8B,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20..."
             target="_blank"
           >
             <img src={iconWhat} alt="Descripción de la imagen" width={90} />

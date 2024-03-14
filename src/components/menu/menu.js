@@ -105,7 +105,7 @@ function Menu() {
               </li>
               <li className="">
                 <a
-                  href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"
+                  href="https://api.whatsapp.com/send?phone=51991316320&text=Hola%F0%9F%91%8B,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20..."
                   target="_blank"
                   className="text-3xl"
                 >
@@ -212,7 +212,7 @@ function Menu() {
               </li>
               <li className="flex justify-center items-center ease-in duration-75 hover:text-[18px]">
                 <a
-                  href="https://api.whatsapp.com/send?phone=51991316320&text=Flous"
+                  href="https://api.whatsapp.com/send?phone=51991316320&text=Hola%F0%9F%91%8B,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20..."
                   target="_blank"
                 >
                   Contáctenos
