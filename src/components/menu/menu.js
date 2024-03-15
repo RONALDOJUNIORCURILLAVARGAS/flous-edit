@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/logo/logo-white.svg";
-import logodesktop from "../../assets/logo.png"
+import logodesktop from "../../assets/logo/logo-blue.svg"
 import "./menu.css";
 import { useEffect } from "react";
 
@@ -171,7 +171,7 @@ function Menu() {
 
               <li>
                 <a href="/#" className="flex items-center">
-                  <div className="logo">
+                  <div className="logo px-[15px] max-w-[120px]">
                     <img src={logodesktop} alt="logo" className="logo-img" />
                   </div>
                 </a>

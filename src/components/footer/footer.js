@@ -1,4 +1,5 @@
 import logoBlanco from "../../assets/logo-blaco.png";
+import logo from "../../assets/logo/logo-white.svg";
 import "./footer.css";
 import navIcon1 from "../../assets/svg/facebook.svg";
 import navIcon2 from "../../assets/svg/linkedin.svg";
@@ -8,7 +9,7 @@ function Footer() {
     <div className="footer px-[20px] md:px-0 pb-[20px]">
       <div className="footer-detalle max-w-6xl mx-auto py-[50px] md:grid md:grid-cols-3 gap-4">
         <div className="detalle-foo text-start">
-          <img src={logoBlanco} alt="logo" className="logo-img w-[150px]" />
+          <img src={logo} alt="logo" className="logo-img w-[150px]" />
           <p className="mt-[20px]">
             Our mission is to redefine business possibilities by leveraging
             technology as a catalyst for innovation and growth.
